@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <style type="text/css">
+    body { margin: 0; }
+    #embed-container { width: 100vw; height: 100vh; }
+  </style>
+<body>
+  <!-- Flat Embed container -->
+  <div id="embed-container"></div>
+  <script src="https://prod.flat-cdn.com/embed-js/v1.3.0/embed.min.js"></script>
+  <script>
+    const container = document.getElementById('embed-container');
+    const appId = '59e7684b476cba39490801c2'; // Use your own App Id here
+    const embed = new Flat.Embed('embed-container', {
+      embedParams: {
+        appId,
+        layout: 'track',
+        videoPosition: 'float',
+      }
+    });
+    fetch('./example.xml')
+      .then(response => response.text())
+      .then(xml => embed.loadMusicXML(xml))
+      .then(() => {
+        embed.call('setTrack', {
+          id: 'yt-cucaracha',
+          type: 'youtube',
+          mediaId: 'jp9vFhyhNd8',
+          synchronizationPoints: [
+            { type: 'measure', time: 0, location: { measureIdx: 0 }},
+            { type: 'end', time: 19 }
+          ],
+        });
+      })
+      .then(() => {
+        embed.call('useTrack', { id: 'yt-cucaracha' });
+      })
+      .catch(error => console.error(error));
+  </script>
+</body>
+</html>
