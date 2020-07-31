@@ -18,22 +18,22 @@ This repository contains some examples of Flat's Embed using our JavaScript API.
 Experiment built on the top of the [Groove Pizza App](https://apps.musedlab.org/groovepizza) by the [NYU MusEDLab](https://musedlab.org/).
 Creates a MusicXML (JSON) file from the rhythms, displays it using Flat's Embed, and allow to print or import the score in Flat.
 
-[View Demo](https://flatio.github.io/experiment-groovepizza/)
-[View Source](https://github.com/FlatIO/experiment-groovepizza)
+* [View Demo](https://flatio.github.io/experiment-groovepizza/)
+* [View Source](https://github.com/FlatIO/experiment-groovepizza)
 
 ### 📺 YouTube synced player with a MusicXML loaded locally
 
 **WIP**: Example example loading a local MusicXML file and linking/sync a YouTube video on client-side.
 
-[View Demo](https://demos.flat-embed.com/youtube-client/)
-[View Source](https://github.com/FlatIO/embed-examples/blob/master/youtube-client/index.html)
+* [View Demo](https://demos.flat-embed.com/youtube-client/)
+* [View Source](https://github.com/FlatIO/embed-examples/blob/master/youtube-client/index.html)
 
 ### 🎧 External player with a MusicXML loaded locally
 
 **WIP**: Embed example loading a local MusicXML and using an external audio player. This example can be adapted to be used with any audio or video player.
 
-[View Demo](https://demos.flat-embed.com/external-audio/)
-[View Source](https://github.com/FlatIO/embed-examples/blob/master/external-audio/index.html)
+* [View Demo](https://demos.flat-embed.com/external-audio/)
+* [View Source](https://github.com/FlatIO/embed-examples/blob/master/external-audio/index.html)
 
 ### 🖊️ Embed editor basics
 
