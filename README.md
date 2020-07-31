@@ -25,15 +25,15 @@ Creates a MusicXML (JSON) file from the rhythms, displays it using Flat's Embed,
 
 **WIP**: Example example loading a local MusicXML file and linking/sync a YouTube video on client-side.
 
-[View Demo]()
-[View Source]()
+[View Demo](https://demos.flat-embed.com/youtube-client/)
+[View Source](https://github.com/FlatIO/embed-examples/blob/master/youtube-client/index.html)
 
 ### 🎧 External player with a MusicXML loaded locally
 
 **WIP**: Embed example loading a local MusicXML and using an external audio player. This example can be adapted to be used with any audio or video player.
 
-[View Demo]()
-[View Source]()
+[View Demo](https://demos.flat-embed.com/external-audio/)
+[View Source](https://github.com/FlatIO/embed-examples/blob/master/external-audio/index.html)
 
 ### 🖊️ Embed editor basics
 

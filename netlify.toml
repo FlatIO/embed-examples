@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/"
+  to = "https://github.com/FlatIO/embed-examples/blob/master/README.md"
+  status = 302
