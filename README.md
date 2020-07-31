@@ -6,11 +6,11 @@ This repository contains some examples of Flat's Embed using our JavaScript API.
 
 * [🍕 Groove Pizza Sheet Music Generator](#-groove-pizza-sheet-music-generator)
 * [📺 YouTube synced player with a MusicXML loaded locally](#)
-* [🎧 External player with a MusicXML loaded locally](#)
+* [🎧 External player with a MusicXML loaded locally](#-external-player-with-a-musicxml-loaded-locally)
 
 **Editor demos**:
 
-* [🖊️ Embed Editor basics](#)
+* [🖊️ Embed Editor basics](#%EF%B8%8F-embed-editor-basics)
 * [📄 Google Docs add-ons (Editor, score only on client-side)](#-google-docs-add-ons)
 
 ###  🍕 Groove Pizza Sheet Music Generator
@@ -21,7 +21,7 @@ Creates a MusicXML (JSON) file from the rhythms, displays it using Flat's Embed,
 [View Demo](https://flatio.github.io/experiment-groovepizza/)
 [View Source](https://github.com/FlatIO/experiment-groovepizza)
 
-### 📺 YouTube client
+### 📺 YouTube synced player with a MusicXML loaded locally
 
 **WIP**: Example example loading a local MusicXML file and linking/sync a YouTube video on client-side.
 
