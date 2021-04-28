@@ -10,7 +10,7 @@
 
   <!-- Flat Embed container -->
   <div id="embed-container"></div>
-  <script src="https://prod.flat-cdn.com/embed-js/v1.3.0/embed.min.js"></script>
+  <script src="https://prod.flat-cdn.com/embed-js/v1.4.0/embed.min.js"></script>
   <script>
     const container = document.getElementById('embed-container');
     const audio = document.getElementById('audio');
@@ -25,7 +25,7 @@
     fetch('./example.xml')
       .then(response => response.text())
       .then(xml => embed.loadMusicXML(xml))
-      .then(() => embed.call('setTrack', {
+      .then(() => embed.setTrack({
         id: 'external-1',
         type: 'external',
         totalTime: 276,
@@ -34,7 +34,7 @@
           { type: 'end', time: 19 }
         ],
       }))
-      .then(() => embed.call('useTrack', { id: 'external-1' }))
+      .then(() => embed.useTrack({ id: 'external-1' }))
       .then(() => console.log('Embed loaded'))
       .catch(error => console.error(error));
 
