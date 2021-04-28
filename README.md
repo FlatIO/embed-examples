@@ -1,6 +1,6 @@
 ## Flat Embed Examples and Demos
 
-This repository contains some examples of Flat's Embed using our JavaScript API.
+This repository contains some examples of Flat's Embed using our [JavaScript SDK](https://flat.io/developers/docs/embed/javascript.html).
 
 **Viewer demos**:
 
